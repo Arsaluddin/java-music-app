@@ -9,7 +9,7 @@ public class Album {
       public Album(String name,String artist){
         this.name=name;
         this.artist=artist;
-        
+        Songs = new ArrayList<>();
       }
 
       public Song FindSong(String title){
